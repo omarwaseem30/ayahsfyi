@@ -327,7 +327,7 @@ textarea {
 .output-content {
     outline: none;
     display: flex;
-    /* max-width: 25%; */
+     max-width: 100%; 
     flex-direction: column;
     justify-content: flex-start;
     flex-shrink: 0;
