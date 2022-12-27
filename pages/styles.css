@@ -73,8 +73,6 @@ body {
     flex-flow: column nowrap;
     gap: 16px;
     height: min-content;
-    padding: 0px; 
-    width: min-content;
 }
 
 .prompt-box {
@@ -89,16 +87,16 @@ body {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     display: flex;
-    
     flex-flow: column nowrap;
     gap: 10px;
-    height: 150px;
+    height: 75px;
     overflow: hidden;
     padding: 20px;
-    position: relative;
-    max-width: 100%;
+    position: center;
+    width: 450px;
+    max-width: 75%;
     will-change: transform;
-    overflow: auto;
+    overflow: none;
     outline: none;
     resize: none;
     font-size: 16px;
@@ -125,7 +123,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -169,9 +167,8 @@ textarea {
 
 .generate-button {
     place-content: flex-start;
-    align-items: flex-start;
-    background-color: rgb(255, 79, 18);
-    border-radius: 100px;
+    align-items: center;
+    background-color: #009254;
     display: flex;
     flex: 0 0 auto;
     flex-flow: column nowrap;
@@ -181,7 +178,9 @@ textarea {
     padding: 16px 24px;
     position: relative;
     text-decoration: none;
-    width: min-content;
+    width: 75%;
+    margin: 0 10vw;
+    border-radius: 12px;
     will-change: transform;
     cursor: pointer;
 }
@@ -337,7 +336,7 @@ textarea {
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.5);
 }
-
+/* 
 @media (min-width: 400px) and (max-width: 1199px) {
     .container {
         max-width: 600px;
@@ -400,7 +399,7 @@ textarea {
     .prompt-box {
         width: 100%;
     }
-}
+} */
 
 
 
