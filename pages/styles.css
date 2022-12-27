@@ -28,7 +28,7 @@ body {
     gap: 10px;
     height: fit-content;
     overflow: auto;
-    padding: 50px 0e;
+    padding: 10vh 0;
     width: 100%;
     gap: 64px;
 }
