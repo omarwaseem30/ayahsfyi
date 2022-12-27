@@ -3,7 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import buildspaceLogo from "../assets/buildspace-logo.png";
 
-import mixpanel from "mixpanel-browser";
+import posthog from "posthog-js";
 
 const Home = () => {
   const [userInput, setUserInput] = useState("");
@@ -14,7 +14,11 @@ const Home = () => {
   const callGenerateEndpoint = async () => {
     setIsGenerating(true);
 
+    posthog.init("phc_JgLe9991BTzddL5oiIFK3riRmUdE1AwHX9Zb3dCybs1", {
+      api_host: "https://app.posthog.com",
+    });
     console.log("Calling OpenAI...");
+    posthog.capture("ayah generated", { property: "value" });
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
@@ -35,11 +39,6 @@ const Home = () => {
     console.log(event.target.value);
     setUserInput(event.target.value);
   };
-
-  mixpanel.init("7da322bc9ec6afe676f20b442759d368");
-  mixpanel.track("Generate Ayah", {
-    source: "Homepage",
-  });
 
   return (
     <div className='root'>
