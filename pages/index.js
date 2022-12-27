@@ -36,7 +36,7 @@ const Home = () => {
     setUserInput(event.target.value);
   };
 
-  mixpanel.init("7da322bc9ec6afe676f20b442759d368", { debug: true });
+  mixpanel.init("7da322bc9ec6afe676f20b442759d368");
   mixpanel.track("Generate Ayah", {
     source: "Homepage",
   });
