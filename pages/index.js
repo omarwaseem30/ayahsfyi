@@ -79,7 +79,9 @@ const Home = () => {
                 <h3>Results</h3>
               </div>
               <div className='output-subtitle'>
-                <h3>Clicking generate will result in a different ayat.</h3>
+                <h3>
+                  Clicking generate will result in a different ayat everytime.
+                </h3>
               </div>
             </div>
             <div className='output-content'>
