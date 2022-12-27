@@ -21,15 +21,14 @@ body {
 
 .container {
     display: flex;
-    place-content: center flex-start;
     align-items: center;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: column nowrap;
     gap: 10px;
     height: fit-content;
     overflow: auto;
-    padding: 50px;
-    position: relative;
+    padding: 50px 0 ;
     width: auto;
     gap: 64px;
 }
