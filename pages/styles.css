@@ -93,7 +93,7 @@ body {
     overflow: hidden;
     padding: 20px;
     position: center;
-    width: 75%;
+    width: 80%;
     max-width: 450px;
     will-change: transform;
     overflow: none;
@@ -178,7 +178,7 @@ textarea {
     padding: 16px 24px;
     position: relative;
     text-decoration: none;
-    width: 75%;
+    width: 80%;
     max-width: 450px;
     margin: 0 10vw;
     border-radius: 12px;
@@ -274,10 +274,9 @@ textarea {
     flex-flow: column nowrap;
     gap: 10px;
     height: min-content;
-    max-width: 1200px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 90%;
 }
 
 .output-header-container {
