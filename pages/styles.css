@@ -28,8 +28,8 @@ body {
     gap: 10px;
     height: fit-content;
     overflow: auto;
-    padding: 50px 0;
-    width: 90vw;
+    padding: 50px 0e;
+    width: 100%;
     gap: 64px;
 }
 
@@ -72,6 +72,7 @@ body {
     flex-flow: column nowrap;
     gap: 16px;
     height: min-content;
+    width: 90vw;
 }
 
 .prompt-box {
@@ -92,8 +93,8 @@ body {
     overflow: hidden;
     padding: 20px;
     position: center;
-    width: 450px;
-    max-width: 75%;
+    width: 75%;
+    max-width: 450px;
     will-change: transform;
     overflow: none;
     outline: none;
@@ -178,6 +179,7 @@ textarea {
     position: relative;
     text-decoration: none;
     width: 75%;
+    max-width: 450px;
     margin: 0 10vw;
     border-radius: 12px;
     will-change: transform;
