@@ -73,9 +73,8 @@ body {
     flex-flow: column nowrap;
     gap: 16px;
     height: min-content;
-    padding: 0px;
+    padding: 0px; 
     width: min-content;
-    max-width: 1200px;
 }
 
 .prompt-box {
@@ -90,15 +89,14 @@ body {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     display: flex;
-    flex: 0 0 auto;
+    
     flex-flow: column nowrap;
     gap: 10px;
     height: 150px;
     overflow: hidden;
     padding: 20px;
     position: relative;
-    min-width: 500px;
-    max-width: 10vw;
+    max-width: 100%;
     will-change: transform;
     overflow: auto;
     outline: none;
