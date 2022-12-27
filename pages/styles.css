@@ -185,6 +185,7 @@ textarea {
     border-radius: 12px;
     will-change: transform;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .generate {

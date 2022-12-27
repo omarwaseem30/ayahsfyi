@@ -3,6 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import buildspaceLogo from "../assets/buildspace-logo.png";
 
+import mixpanel from "mixpanel-browser";
+
 const Home = () => {
   const [userInput, setUserInput] = useState("");
 
@@ -33,6 +35,11 @@ const Home = () => {
     console.log(event.target.value);
     setUserInput(event.target.value);
   };
+
+  mixpanel.init("7da322bc9ec6afe676f20b442759d368", { debug: true });
+  mixpanel.track("Generate Ayah", {
+    source: "Homepage",
+  });
 
   return (
     <div className='root'>
@@ -80,7 +87,7 @@ const Home = () => {
               </div>
               <div className='output-subtitle'>
                 <h3>
-                  Clicking generate will result in a different ayat everytime.
+                  Clicking generate will result in a different ayat each time.
                 </h3>
               </div>
             </div>
