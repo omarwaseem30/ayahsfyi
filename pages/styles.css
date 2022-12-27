@@ -310,6 +310,20 @@ textarea {
     margin: 0;
 }
 
+.output-subtitle h3 {
+    font-family: "Manrope", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1.4em;
+    text-align: start;
+    color: #919191;
+    text-decoration: none;
+    text-transform: none;
+    margin: 0;
+}
+
 .output-content {
     outline: none;
     display: flex;
@@ -326,7 +340,7 @@ textarea {
     color: rgba(255, 255, 255, 0.5);
 }
 
-@media (min-width: 810px) and (max-width: 1199px) {
+@media (min-width: 400px) and (max-width: 1199px) {
     .container {
         max-width: 600px;
         width: 100%;
