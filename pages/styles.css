@@ -76,6 +76,7 @@ body {
     height: min-content;
     padding: 0px;
     width: min-content;
+    max-width: 100%;
 }
 
 .prompt-box {
@@ -97,7 +98,7 @@ body {
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 610px;
+    width: 400px;
     max-width: 1200px;
     will-change: transform;
     overflow: auto;
