@@ -27,7 +27,6 @@ body {
     flex-flow: column nowrap;
     gap: 10px;
     height: fit-content;
-    max-width: 100%;
     overflow: auto;
     padding: 50px;
     position: relative;
@@ -76,7 +75,7 @@ body {
     height: min-content;
     padding: 0px;
     width: min-content;
-    max-width: 100%;
+    max-width: 1200px;
 }
 
 .prompt-box {
@@ -98,8 +97,8 @@ body {
     overflow: hidden;
     padding: 20px;
     position: relative;
-    width: 400px;
-    max-width: 1200px;
+    min-width: 500px;
+    max-width: 10vw;
     will-change: transform;
     overflow: auto;
     outline: none;
