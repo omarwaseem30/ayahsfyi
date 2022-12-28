@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta
           property='og:image'
-          content='https://asset.cloudinary.com/dg8qq3czi/d1b4be606fd28e59d8b2fb1170afcf9c'
+          content='https://res.cloudinary.com/dg8qq3czi/image/upload/v1672190497/alifvc_zhaz5z.png'
         />
         <meta name='twitter:card' content='summary_large_image'></meta>
       </Head>
