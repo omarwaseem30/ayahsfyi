@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta
           property='og:image'
-          content='https://cdn.buildspace.so/courses/gpt3-writer/project-og.jpg'
+          content='https://asset.cloudinary.com/dg8qq3czi/d1b4be606fd28e59d8b2fb1170afcf9c'
         />
         <meta name='twitter:card' content='summary_large_image'></meta>
       </Head>
