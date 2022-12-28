@@ -95,6 +95,17 @@ const Home = () => {
             </div>
           </div>
         )}
+
+        <div className='badge-container grow'>
+          <a
+            href='https://twitter.com/omarwasm'
+            target='_blank'
+            rel='noreferrer'>
+            <div className='badge'>
+              <p>built by @omarwasm</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );
