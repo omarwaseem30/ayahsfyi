@@ -4,7 +4,11 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <meta property='og:title' content='Ayahs.fyi' key='title' />
+        <meta
+          property='og:title'
+          content="The search engine for the Qur'an"
+          key='title'
+        />
         <meta
           property='og:description'
           content="The search engine for the Qur'an"
