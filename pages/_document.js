@@ -7,12 +7,12 @@ export default function Document() {
         <meta property='og:title' content='Ayahs.fyi' key='title' />
         <meta
           property='og:description'
-          content='Search for an ayah about anything'
+          content="The search engine for the Qur'an"
           key='description'
         />
         <meta
           property='og:image'
-          content='/Users/omarwaseem/Dev/ayahsfyi/assets/social-sharing.jpeg'
+          content={"/Users/omarwaseem/Dev/ayahsfyi/assets/asset.png"}
         />
         <meta name='twitter:card' content='summary_large_image'></meta>
       </Head>
