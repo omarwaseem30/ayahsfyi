@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta
           property='og:title'
-          content="The search engine for the Qur'an"
+          content='Search for any Ayah in the Quran'
           key='title'
         />
         <meta
