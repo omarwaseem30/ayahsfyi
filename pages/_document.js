@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta
           property='og:image'
-          content={"/Users/omarwaseem/Dev/ayahsfyi/assets/asset.png"}
+          content='https://drive.google.com/file/d/10yuaXjZmYQQD9MN-Y7CaMuIe-Kmg-qH6/view?usp=share_link'
         />
         <meta name='twitter:card' content='summary_large_image'></meta>
       </Head>
